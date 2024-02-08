@@ -1,0 +1,19 @@
+#sliderRed {
+  margin-right: 30px;
+}
+
+#sliderGreen {
+  margin-right: 30px;
+}
+
+#valueDisplay {
+  position: absolute;
+  top: 10px;
+  right: 60px;
+}
+
+#colorViewer {
+  margin-top: 30px;
+  height: 400px;
+  background-color: rgb(255, 0, 234);
+}

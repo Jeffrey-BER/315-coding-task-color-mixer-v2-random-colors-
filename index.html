@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Bar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="bodyArea">
+    <header class="header">
+        <label for="sliderRed">R </label>
+        <input type="range" min="0" max="255" value="255" id="sliderRed">
+        <label for="sliderGreen">G </label>
+        <input type="range" min="0" max="255" value="0" id="sliderGreen">
+        <label for="sliderBlue">B </label>
+        <input type="range" min="0" max="255" value="255" id="sliderBlue">
+        <label id="valueDisplay">Value </label>
+        <button id="randomColorBtn">Random Color</button>
+    </header>
+
+    <div id="colorViewer"> </div>
+
+
+    <script src="scriptColor.js"></script>
+
+</body>
+
+</html>
